@@ -1,32 +1,33 @@
 header {
-    background-color: rgba(255, 0, 0, 0.5);
+    background-color: lightblue;
     text-align: center;
     height: 100px;
-}
-header h1 {
-    padding: 20px;
-}
-
-body {
-    background-color: rgba(120, 120, 120, 0.1);
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 20px;
+    padding: 100px;
 }
 
 .card {
-    width: 250px;
+    width: 500px;
     border: 1px solid black;
-    border-radius: 7px;
-    box-shadow: 5px 5px 10px;
+    border-radius: 5px;
     margin: 10px 15px;
-    text-align: center;
 }
 
 .card-header {
-    background-color: rgba(0, 119, 255, 0.7)
+    background-color: lightblue
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
 }
